@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <title>Homepage - seznam předmětů k vypůjčení</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../assets/styles/normalize.css">
+    <link rel="stylesheet" href="../../assets/styles/typography.css">
+    <link rel="stylesheet" href="../../assets/styles/layout.css">
+    <link rel="stylesheet" href="../../assets/styles/components.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="main-container-layout">
+
+        <header class="main-header-layout">
+            <div class="main-nav-container-layout">
+                <nav class="main-nav-layout main-nav">
+                    <div class="logo logo-zakaznik">
+                        <a href="../../html/zakaznik/homepage-admin.html" class="logo">Rentals</a>
+                    </div>
+
+                    <details class="nav-kategorie-layout nav-kategorie active-desktop-block uppercase">
+                        <summary><span class="icon-arrow-down icon active-desktop-block"> Kategorie</span><span
+                                class="icon-filter icon active-mobile"></span></summary>
+                        <nav>
+                            <ul class="nav-ul nav-kategorie-layout-ul">
+                                <li class="nav-li"><a href="#"><span class="icon-dot-blue icon"></span>Vše</a></li>
+                                <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Těla
+                                        fotoaparátů</a></li>
+                                <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Objektivy</a>
+                                </li>
+                                <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Stativy</a>
+                                </li>
+                                <li class="nav-li"><a href="#"><span
+                                            class="icon-dot-border icon"></span>Příslušenství</a></li>
+                            </ul>
+                        </nav>
+                    </details>
+
+                    <nav class="nav-menu-layout nav-menu">
+
+                        <ul class="nav-ul nav-menu-layout-ul">
+                            <li class="nav-menu-layout-li active-mobile">
+                                <details class="nav-kategorie-layout nav-kategorie uppercase">
+                                    <summary><span class="icon-arrow-down icon active-desktop-block"> Kategorie</span><span
+                                            class="icon-filter icon active-mobile"></span></summary>
+                                    <nav>
+                                        <ul class="nav-ul nav-kategorie-layout-ul">
+                                            <li class="nav-li"><a href="#"><span class="icon-dot-blue icon"></span>Vše</a></li>
+                                            <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Těla
+                                                    fotoaparátů</a></li>
+                                            <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Objektivy</a>
+                                            </li>
+                                            <li class="nav-li"><a href="#"><span class="icon-dot-border icon"></span>Stativy</a>
+                                            </li>
+                                            <li class="nav-li"><a href="#"><span
+                                                        class="icon-dot-border icon"></span>Příslušenství</a></li>
+                                        </ul>
+                                    </nav>
+                                </details>
+                            </li>
+                            <li class="nav-menu-layout-li">
+                                <details class="nav-search-layout">
+                                    <summary><span class="icon-search icon"></span></summary>
+                                    <form class="search-area" action="">
+                                        <input class="search-input" type="text" placeholder="HLEDAT" name="search">
+                                        <a href="#"><span class="icon-search icon-search-input icon"><span class="hidden-text">hledat</span></span></a>
+                                    </form>
+                                </details>
+                            </li>
+                            <!-- <li class="admin-active"><a href="../admin/prehled/probihajici.html"><span class="icon-settings icon"><span class="hidden-text">admin icon</span></span></a></li> -->
+                            <li class="nav-menu-layout-li"><a href="../zakaznik/wishlist.html"><span
+                                        class="icon-wishlist icon"><span class="hidden-text">wishlist</span></span></a></li>
+                            <li class="nav-menu-layout-li"><a href="../zakaznik/kosik.html"><span
+                                        class="icon-cart-black icon"><span class="hidden-text">košík</span></span></a></li>
+                            <li class="nav-menu-layout-li"><a href="../zakaznik/profil.html"><span
+                                        class="icon-user-black icon"><span class="hidden-text">profil</span></span></a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+
+            <h1 class="h1">Seznam předmětů k vypůjčení</h1>
+        </header>
+
+        <main>
+            <div class="container-list-product-layout">
+
+                <div class="product-item-layout product-item">
+                    <header class="product-image">
+                        <label class="heart-checkbox">
+                            <input type="checkbox" class="heart-input">
+                             <span class="icon-heart-border-blue icon-heart-border-blue-btn icon unchecked"><span class="hidden-text">přidat do oblíbených</span></span>
+                            <span class="icon-heart-fill-blue icon-heart-fill-blue-btn icon checked"><span class="hidden-text">přidáno do oblíbených</span></span>
+                        </label>
+                        <a href="../zakaznik/predmet-detail.html" class="odkaz-nahled-img">
+                            <img src="../../assets/img/Sigma18-50_f918-min.jpg" alt="Objektiv SIGMA 17-50 mm 1:2.8" class="img-nahled-product"></a>
+                    </header>
+                    <div class="product-description">
+                        <h2 class="product-title"><a class="product-title-a"
+                                href="../zakaznik/predmet-detail.html">Objektiv SIGMA 17-50 mm
+                                1:2.8</a></h2>
+                        <p class="product-text uppercase">Určen primárně do ateliéru!</p>
+                    </div>
+                    <footer class="pridat-do-kosiku-btn-layout pridat-do-kosiku-btn uppercase">
+                        <a class="pridat-do-kosiku-btn-a" href="../zakaznik/nahled-kalendare.html"><span
+                                class="icon-cart-white-min icon-cart-btn"></span>Přidat do
+                            košíku</a>
+                    </footer>
+                </div>
+
+                <div class="product-item-layout product-item">
+                    <header class="product-image">
+                        <label class="heart-checkbox">
+                            <input type="checkbox" class="heart-input">
+                            <span class="icon-heart-border-blue icon-heart-border-blue-btn icon unchecked"><span class="hidden-text">přidat do oblíbených</span></span>
+                            <span class="icon-heart-fill-blue icon-heart-fill-blue-btn icon checked"><span class="hidden-text">přidáno do oblíbených</span></span>
+                        </label>
+                        <a href="../zakaznik/predmet-detail.html" class="odkaz-nahled-img">
+                            <img src="../../assets/img/crane3Lab_1685.jpg" alt="Zhiyun Crane 3 LAB" class="img-nahled-product">
+                        </a>
+                    </header>
+                    <div class="product-description">
+                        <h2 class="product-title"><a class="product-title-a"
+                                href="../zakaznik/predmet-detail.html">Zhiyun Crane 3 LAB</a></h2>
+                        <p class="product-text uppercase"></p>
+                    </div>
+                    <footer class="pridat-do-kosiku-btn-layout pridat-do-kosiku-btn uppercase">
+                        <a class="pridat-do-kosiku-btn-a" href="../zakaznik/nahled-kalendare.html"><span
+                                class="icon-cart-white-min icon-cart-btn"></span>Přidat do
+                            košíku</a>
+                    </footer>
+                </div>
+
+                <div class="product-item-layout product-item">
+                    <header class="product-image">
+                        <label class="heart-checkbox">
+                            <input type="checkbox" class="heart-input">
+                             <span class="icon-heart-border-blue icon-heart-border-blue-btn icon unchecked"><span class="hidden-text">přidat do oblíbených</span></span>
+                            <span class="icon-heart-fill-blue icon-heart-fill-blue-btn icon checked"><span class="hidden-text">přidáno do oblíbených</span></span>
+                        </label>
+                        <a href="../zakaznik/predmet-detail.html" class="odkaz-nahled-img">
+                            <img src="../../assets/img/StativMS-007H_3d14.jpg" alt="Stativ video MS-007H" class="img-nahled-product">
+                        </a>
+                    </header>
+                    <div class="product-description">
+                        <h2 class="product-title"><a class="product-title-a"
+                                href="../zakaznik/predmet-detail.html">Stativ video MS-007H</a>
+                        </h2>
+                        <p class="product-text uppercase"></p>
+                    </div>
+                    <footer class="pridat-do-kosiku-btn-layout pridat-do-kosiku-btn uppercase">
+                        <a class="pridat-do-kosiku-btn-a" href="../zakaznik/nahled-kalendare.html"><span
+                                class="icon-cart-white-min icon-cart-btn"></span>Přidat do
+                            košíku</a>
+                    </footer>
+                </div>
+
+                <div class="product-item-layout product-item">
+                    <header class="product-image">
+                        <label class="heart-checkbox">
+                            <input type="checkbox" class="heart-input">
+                             <span class="icon-heart-border-blue icon-heart-border-blue-btn icon unchecked"><span class="hidden-text">přidat do oblíbených</span></span>
+                            <span class="icon-heart-fill-blue icon-heart-fill-blue-btn icon checked"><span class="hidden-text">přidáno do oblíbených</span></span>
+                        </label>
+                        <a href="../zakaznik/predmet-detail.html" class="odkaz-nahled-img">
+                            <img src="../../assets/img/Panasonic_HC-X920_7ce7.jpg" alt="Videokamera Panasonic HC-X920" class="img-nahled-product">
+                        </a>
+                    </header>
+                    <div class="product-description">
+                        <h2 class="product-title"><a class="product-title-a"
+                                href="../zakaznik/predmet-detail.html">Videokamera
+                                Panasonic
+                                HC-X920</a></h2>
+                        <p class="product-text uppercase">F1,5 f2,84-34,1mm
+                            (včetně akumulátoru)</p>
+                    </div>
+                    <footer class="pridat-do-kosiku-btn-layout pridat-do-kosiku-btn uppercase">
+                        <a class="pridat-do-kosiku-btn-a" href="../zakaznik/nahled-kalendare.html"><span
+                                class="icon-cart-white-min icon-cart-btn"></span>Přidat do
+                            košíku</a>
+                    </footer>
+                </div>
+
+                <div class="product-item-layout product-item">
+                    <header class="product-image">
+                        <label class="heart-checkbox">
+                            <input type="checkbox" class="heart-input">
+                             <span class="icon-heart-border-blue icon-heart-border-blue-btn icon unchecked"><span class="hidden-text">přidat do oblíbených</span></span>
+                            <span class="icon-heart-fill-blue icon-heart-fill-blue-btn icon checked"><span class="hidden-text">přidáno do oblíbených</span></span>
+                        </label>
+                        <a href="../zakaznik/predmet-detail.html" class="odkaz-nahled-img">
+                            <img src="../../assets/img/SonyVct-d680rm_9d51.jpg" alt="Stativ Sony VCT-D680RM" class="img-nahled-product">
+                        </a>
+                    </header>
+                    <div class="product-description">
+                        <h2 class="product-title"><a class="product-title-a"
+                                href="../zakaznik/predmet-detail.html">Stativ Sony VCT-D680RM</a>
+                        </h2>
+                        <p class="product-text uppercase">FullFrame</p>
+                    </div>
+                    <footer class="pridat-do-kosiku-btn-layout pridat-do-kosiku-btn-pridano uppercase">
+                        <a class="pridat-do-kosiku-btn-a btn-homepage-text-pridano"
+                            href="../zakaznik/nahled-kalendare.html"><span
+                                class="icon-cart-blue-min icon-cart-btn"></span>Přidáno do
+                            košíku</a>
+                    </footer>
+                </div>
+
+
+
+            </div>
+        </main>
+
+        <footer class="main-footer-layout main-footer">
+            <div class="main-footer-container-layout">
+                <p class="footer-text">© Aplikace pro správu vybavení školního ateliéru</p>
+                <div class="logout-btn-container-layout">
+                    <div class="logout-btn uppercase">
+                        <a href="./login.html" class="logout-btn-text">Odhlásit se</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

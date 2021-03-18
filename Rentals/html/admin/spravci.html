@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <title>Správci</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../assets/styles/normalize.css">
+    <link rel="stylesheet" href="../../assets/styles/typography.css">
+    <link rel="stylesheet" href="../../assets/styles/layout.css">
+    <link rel="stylesheet" href="../../assets/styles/components.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container-layout">
+
+        <header class="main-header-layout main-header-layout-admin">
+            <div
+                class="main-nav-container-layout main-nav-admin-container-layout main-nav-admin-container-desktop-layout">
+                <nav class="main-nav-admin-layout main-nav-admin-mobile active-mobile">
+
+                    <div class="logo active-mobile">
+                        <a href="../zakaznik/homepage-admin.html" class="logo">Rentals</a>
+                    </div>
+
+                    
+                    <div class="main-nav-ico-admin-container">
+                        <details class="nav-kategorie-admin-layout uppercase active-mobile">
+                            <summary class="nav-summary"></span><span class="icon-timer icon"></span></summary>
+                            <nav>
+                                <ul class="nav-ul nav-kategorie-admin-ul">
+                                    <li class="nav-mobile-li"><a class="nav-a" href="./prehled/probihajici.html"><span
+                                                class="icon-dot-border icon"></span>Probíhajíjcí</a></li>
+                                    <li class="nav-mobile-li"><a class="nav-a" href="./prehled/rezervace.html"><span
+                                                class="icon-dot-border icon"></span>Rezervace</a></li>
+                                    <li class="nav-mobile-li"><a class="nav-a" href="./prehled/historie.html"><span
+                                                class="icon-dot-border icon"></span>Historie</a>
+                                    </li>
+                                    <li class="nav-mobile-li"><a class="nav-a" href="./prehled/nevracene.html"><span
+                                                class="icon-dot-border icon"></span>Nevrácené</a>
+                                    </li>
+                                    <li class="nav-mobile-li"><a class="nav-a"
+                                            href="./vypujcky/nova-vypujcka.html"><span
+                                                class="icon-dot-border icon"></span>Nová
+                                            výpůjčka</a></li>
+                                </ul>
+                            </nav>
+                        </details>
+                        <details class="nav-kategorie-admin-layout uppercase active-mobile">
+                            <summary class="nav-summary"><span class="icon-plus icon"><span class="hidden-text">nástroje</span></span></summary>
+                            <ul class="nav-ul nav-kategorie-admin-ul">
+                                <li class="nav-mobile-li"><a class="nav-a" href="#">Odeslat upozornění</a></li>
+                                <li class="nav-mobile-li"><a class="nav-a" href="./predmety/novy-predmet.html">Nový
+                                        předmět</a></li>
+                                <li class="nav-mobile-li"><a class="nav-a" href="./vypujcky/nova-vypujcka.html">Nová
+                                        výpůjčka</a></li>
+                            </ul>
+                        </details>
+                        <details class="nav-kategorie-admin-layout uppercase active-mobile">
+                            <summary class="nav-summary"><span class="icon-menu icon"><span class="hidden-text">menu</span></span></summary>
+                            <ul class="nav-ul nav-kategorie-admin-ul nav-kategorie-admin-ul-menu-mobile">
+                                <li class="nav-mobile-li nav-prehled"><a class="nav-a"
+                                        href="./prehled/probihajici.html"><span
+                                            class="icon-dot-border icon"></span>Přehled</a></li>
+                                <li class="nav-mobile-li nav-kalendar"><a class="nav-a" href="./kalendar.html"><span
+                                            class="icon-dot-border icon"></span>Kalendář</a></li>
+                                <li class="nav-mobile-li nav-predmety"><a class="nav-a"
+                                        href="./predmety/seznam-predmetu.html"><span
+                                            class="icon-dot-border icon"></span>Seznam předmětů</a></li>
+                                <li class="nav-mobile-li nav-zakaznici"><a class="nav-a" href="./zakaznici.html"><span
+                                            class="icon-dot-border icon"></span>Zákazníci</a></li>
+                                <li class="nav-mobile-li nav-spravci"><a class="nav-a nav-target"
+                                        href="./spravci.html"><span class="icon-dot-blue icon"></span>Správci</a></li>
+                            </ul>
+                        </details>
+                </nav>
+
+                <nav class="main-nav-admin-desktop-layout main-nav-admin-desktop active-desktop">
+                    <div class="primary-nav-admin-desktop-layout">
+                        <div class="logo active-desktop">
+                            <a href="../zakaznik/homepage-admin.html" class="logo">Rentals</a>
+                        </div>
+                        <nav class="nav-menu-admin-desktop-layout active-desktop">
+                            <ul class="nav-ul-admin-layout uppercase">
+                                <li class="active-desktop">
+                                    <details class="nav-dropdown-layout">
+                                        <summary class="nav-summary"><span class="icon-arrow-down icon"></span> Nástroje
+                                        </summary>
+                                        <ul class="nav-ul nav-menu-admin-desktop-ul">
+                                            <li class="nav-menu-li"><a class="nav-a" href="#">Odeslat upozornění</a>
+                                            </li>
+                                            <li class="nav-menu-li"><a class="nav-a"
+                                                    href="./predmety/novy-predmet.html">Nový předmět</a></li>
+                                            <li class="nav-menu-li"><a class="nav-a"
+                                                    href="./vypujcky/nova-vypujcka.html">Nová výpůjčka</a></li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li class="nav-prehled"><a class="nav-a" href="./prehled/probihajici.html"><span
+                                            class="icon-dot-border icon"></span>Přehled</a></li>
+                                <li class="nav-kalendar"><a class="nav-a" href="./kalendar.html"><span
+                                            class="icon-dot-border icon"></span>Kalendář</a></li>
+                                <li class="nav-predmety"><a class="nav-a" href="./predmety/seznam-predmetu.html"><span
+                                            class="icon-dot-border icon"></span>Seznam předmětů</a></li>
+                                <li class="nav-zakaznici"><a class="nav-a" href="./zakaznici.html"><span
+                                            class="icon-dot-border icon"></span>Zákazníci</a></li>
+                                <li class="nav-spravci"><a class="nav-a nav-target" href="./spravci.html"><span
+                                            class="icon-dot-blue icon"></span>Správci</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </nav>
+            </div>
+
+            <h1 class="h1">Správci</h1>
+        </header>
+
+        <main>
+
+            <div class="spravci-layout">
+
+                <div class="spravci-item-layout spravci-item">
+                    <p class="spravci-jmeno"><a class="spravci-jmeno" href="../admin/zakaznik-detail.html">Novák
+                            František</a></p>
+                    <p class="spravci-mail"><a class="spravci-mail" href="#">frantisek.novak@pslib.cz</a></p>
+                    <div class="spravci-role-container">
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zaměstnanec</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Admin</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zákazník</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spravci-item-layout spravci-item">
+                    <p class="spravci-jmeno"><a class="spravci-jmeno" href="../admin/zakaznik-detail.html">Vlk
+                            Jan</a></p>
+                    <p class="spravci-mail"><a class="spravci-mail" href="#">jan.vlk@pslib.cz</a></p>
+                    <div class="spravci-role-container">
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zaměstnanec</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Admin</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zákazník</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spravci-item-layout spravci-item">
+                    <p class="spravci-jmeno"><a class="spravci-jmeno" href="../admin/zakaznik-detail.html">Černý
+                            Lukáš</a></p>
+                    <p class="spravci-mail"><a class="spravci-mail" href="#">lukas.cerny@pslib.cz</a></p>
+                    <div class="spravci-role-container">
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zaměstnanec</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Admin</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="spravci-role">
+                            <p class="spravci-role-hodnota">Zákazník</p>
+                            <label class="toggle">
+                                <input type="checkbox" id="cToggle" />
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <h2 class="h2 h2-pozvanka">Pozvánky</h2>
+            <div class="pozvanka-layout">
+                <a class="nova-pozvanka-btn" href="../admin/nova-pozvanka.html">Vytvořit novou pozvánku</a>
+            </div>
+
+        </main>
+
+        <footer class="main-footer-layout main-footer">
+            <div class="main-footer-container-layout">
+                <p class="footer-text">© Aplikace pro správu vybavení školního ateliéru</p>
+                <div class="logout-btn-container-layout">
+                    <div class="logout-btn uppercase">
+                        <a href="../zakaznik/login.html" class="logout-btn-text">Odhlásit se</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function check() {
+            var checkbox = document.getElementById("cToggle");
+            if (checkbox.checked) { alert("CHECKED"); }
+            else { alert("NOT CHECKED"); }
+        }
+    </script>
+</body>
+
+</html>
